@@ -212,14 +212,14 @@ sharejs:
 
 comments:
   # 在use下设置使用的评论系统，不设置则不启用。最多只能设置两个评论系统，第一个设为默认
-  use:
+  use: Valine,Disqus
   # - Valine
   # - Disqus
   text: true # 在按钮旁边显示评论名称
   # lazyload: 当评论元素进入浏览器的视口时，评论系统将被加载。
   # 如果设置为true，则评论计数无效
-  lazyload: false
-  count: false # 在帖子的 top_img 中显示评论数
+  lazyload: true
+  count: true # 在帖子的 top_img 中显示评论数
   card_post_count: false # 在主页中显示评论数
 
 
@@ -494,13 +494,13 @@ activate_power_mode:
 # --------------------------------------
 #  烟花特效
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
 # 爱心
 click_heart:
-  enable: true
+  enable: false
   mobile: true
 
 # 文字（可自定义文本内容）
@@ -554,8 +554,8 @@ subtitle:
   loop: true
   source: false
   sub:
-    - 知识来自实践。
-    - Knowledge comes from experience alone.
+    - 新官网，新启程
+    - New official website; New journey
     - 世间无所谓天才，它仅是刻苦加勤奋。
     - There is no such thing as genius; it is nothing but labour and diligence.
 
@@ -570,7 +570,7 @@ preloader: true
 
 # 右侧社交图标设置：
 social:
-  fas fa-envelope: mailto:你的邮箱 || Email
+  fas fa-envelope: mailto:2726269007@qq.com|| Email
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
@@ -631,7 +631,7 @@ busuanzi:
 # 格式: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 2020/09/10
+  publish_date: 2022/08/14
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -790,7 +790,7 @@ inject:
   bottom:
     # Aplayer 音乐播放器配置：
     - <div class="aplayer no-destroy" 
-      data-id="7675104902" 
+      data-id="8428009671" 
       data-server="tencent" 
       data-type="playlist" 
       data-fixed="true" 
